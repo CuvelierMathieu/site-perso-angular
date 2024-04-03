@@ -1,0 +1,44 @@
+<div class="main-container">
+    <h2>Hello world !</h2>
+    Bienvenue chez moi !<br/>
+    Je me présente rapidement : Mathieu, geek angevin de <a class="age">{{(currentAge$ | async) ?? '🧐'}}</a>, développeur spécialisé dans la création de logiciels
+    en client lourd via les technologies .NET et le langage C#.
+
+    <h2>Quelles sont mes principales compétences ?</h2>
+    
+    <ul>
+        <li>Dans l'univers C# :</li>
+        <ul>
+            <li>.NET Framework</li>
+            <li>.NET Core</li>
+            <li>.NET</li>
+            <li>WPF</li>
+            <li>Entity Framework</li>
+            <li>ASP.NET</li>
+        </ul>
+        <li>Web :</li>
+        <ul>
+            <li>Angular</li>
+        </ul>
+        <li>Bases de données :</li>
+        <ul>
+            <li>SQL Server</li>
+            <li>Couchbase</li>
+        </ul>
+        <li>Méthodologies :</li>
+        <ul>
+            <li>Test-Driven Development</li>
+            <li>Software Craftsmanship</li>
+            <li>Agile / Scrum</li>
+        </ul>
+    </ul>
+
+    <h2>Comment me contacter ?</h2>
+
+    Vous pouvez me contacter via les moyens suivants :
+    <ul>
+        <li>Email : <a href="mailto:mathieu@cuvelier.dev">mathieu{{'@'}}cuvelier.dev</a></li>
+        <li>Téléphone : <a href="tel:+33749397765">07.49.39.77.65</a></li>
+        <li><a href="{{linkedInUrl}}" target="_blank">LinkedIn</a></li>
+    </ul>
+</div>

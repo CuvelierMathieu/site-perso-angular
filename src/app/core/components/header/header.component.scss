@@ -1,0 +1,42 @@
+header {
+    background-color: #10243E;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    margin: 0px;
+}
+
+.main {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.inner_links {
+    text-align: left;
+    a:visited {
+        color: white;
+    }
+    a:link {
+        color: white;
+    }
+}
+
+.outer_links {
+    justify-content: space-around;
+    a:visited {
+        color: darkturquoise;
+    }
+    a:link {
+        color: darkturquoise;
+    }
+}
+
+ng-icon {
+    margin-left: 2px;
+    margin-right: 2px;
+}
